@@ -14,17 +14,4 @@ class Otomobil(hiz: Int, yakitTuketimi: Double, val bagajHacmi: Int) : Arac(hiz,
     }
 }
 
-fun main() {
-    // "Otomobil" sınıfından bir nesne oluşturuyoruz
-    val otomobil = Otomobil(45, 200.9, 40)
 
-    // "Arac" sınıfının özelliklerini ekrana yazdırıyoruz
-    println("Aracın Hızı: ${otomobil.hiz}")
-    println("Aracın Yakıt Tüketimi: ${otomobil.yakitTuketimi}")
-
-    // "Otomobil" sınıfının özelliklerini ekrana yazdırıyoruz
-    println("Otomobilin Bagaj Hacmi: ${otomobil.bagajHacmi}")
-
-    // "Otomobil" sınıfının metotunu çağırıyoruz ve ekrana yazdırıyoruz
-    otomobil.bagajAc()
-}
